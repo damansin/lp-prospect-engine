@@ -4,6 +4,8 @@ An AI-powered data pipeline that takes a raw CSV of investor contacts, autonomou
 
 **Stack:** Python · OpenAI GPT-4o · Tavily Search API · SQLAlchemy · SQLite · Streamlit · Plotly
 
+![Pipeline Overview](assets/dashboard_1.png)
+
 ---
 
 ## How It Works
@@ -89,6 +91,8 @@ Full scored output for 99 contacts in `sample_output.csv`. Top prospects:
 ---
 
 ## Cost
+
+![Cost Tracking](assets/dashboard_3.png)
 
 ~$0.04 per unique organization (3 Tavily searches + 1 GPT-4o call).
 
